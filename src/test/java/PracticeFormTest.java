@@ -54,16 +54,16 @@ public class PracticeFormTest {
         $("#submit").click();
 
         $(".modal-header").shouldHave(text("Thanks for submitting the form"));
-        $(".modal-body").shouldHave(text("Lissa Vasenko")
-                , text("pdbt@gmai.com")
-                , text("Female")
-                , text("5555599999")
-                , text("05 September,1999")
-                , text("Computer Science")
-                , text("Sports, Reading, Music")
-                , text("wipdaf.PNG")
-                , text("NB3.15")
-                , text("NCR Delhi"));
+        $(".modal-body").shouldHave(text("Lissa Vasenko"));
+        $(".modal-body").shouldHave(text("pdbt@gmai.com"));
+        $(".modal-body").shouldHave(text("Female"));
+        $(".modal-body").shouldHave(text("5555599999"));
+        $(".modal-body").shouldHave(text("05 September,1999"));
+        $(".modal-body").shouldHave(text("Computer Science"));
+        $(".modal-body").shouldHave(text("Sports, Reading, Music"));
+        $(".modal-body").shouldHave(text("wipdaf.PNG"));
+        $(".modal-body").shouldHave(text("NB3.15"));
+        $(".modal-body").shouldHave(text("NCR Delhi"));
         $("#closeLargeModal").click();
     }
 }
