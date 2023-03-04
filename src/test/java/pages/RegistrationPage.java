@@ -29,7 +29,7 @@ public class RegistrationPage {
             userState = $("#state"),
             userCity = $("#city"),
             submitButton = $("#submit"),
-            hobbiesCheckbox = $("label[for='hobbies-checkbox-1]");
+            hobbiesCheckbox = $("label[for='hobbies-checkbox-3']");
 
 
     public RegistrationPage openPage() {
