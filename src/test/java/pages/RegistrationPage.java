@@ -96,7 +96,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage selectCheckbox(String value) {
-        hobbiesCheckbox.shouldHave(text(value)).click();
+        hobbiesCheckbox.$(byText(value)).click();
 
         return this;
     }

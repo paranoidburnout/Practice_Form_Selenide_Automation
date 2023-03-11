@@ -18,7 +18,7 @@ public class RandomFaker {
                 userGender = faker.options().option("Male", "Female", "Other"),
                 userPhone = faker.phoneNumber().subscriberNumber(10),
                 userSubjects = faker.options().option("Computer Science", "Hindi", "Arts", "Biology", "English"),
-                hobbies = faker.options().option( "Music"),
+                hobbies = faker.options().option("Sport", "Reading", "Music"),
                 address = faker.address().fullAddress();
 
         String file = "src/test/resources/data/wipdaf.PNG";
