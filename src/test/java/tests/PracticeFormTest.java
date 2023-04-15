@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 @Feature("Возможность создания и заполнения формы регистрации")
 @Owner("vasenkoea")
 @Severity(SeverityLevel.BLOCKER)
-@Tag("Practice Form UI Testing")
+@Tag("Registration")
 public class PracticeFormTest extends TestBase {
 
     @CsvSource(value = {"Male", "Female", "Other"})

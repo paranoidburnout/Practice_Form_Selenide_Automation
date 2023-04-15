@@ -47,6 +47,6 @@ test {
 
 task remote_test(type: Test) {
     useJUnitPlatform {
-        includeTags("Practice Form UI Testing")
+        includeTags("Registration")
     }
 }
